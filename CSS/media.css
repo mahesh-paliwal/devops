@@ -1,0 +1,32 @@
+
+@media only screen and (min-width:200px) and (max-width:767px){
+    .section-custom p{
+        color: white !important;
+    }
+
+    .section-custom p b{
+        color: rgb(116, 8, 8);
+    }
+
+    .linux-section-custom{
+        background-size: cover;
+    }
+
+    .linux-section-custom-2 .col-md-3{
+        border: none !important;
+    }
+
+    .linux-section-custom-2 .border-custom{
+        border-bottom: 2px solid rgb(52, 50, 50) !important;
+        padding-top: 10px !important;
+    }
+
+    .linux-section-custom-2 .btn-custom{
+        padding-top: 30px !important;
+    }
+
+    .linux-con-custom-3{
+        padding-top: 370px !important;
+    }
+
+}

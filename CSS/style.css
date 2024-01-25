@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.header-custom {
+    background: url("../Images/Network.png") no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid white;
+}
+
+.nav-item a {
+    color: white;
+    cursor: pointer;
+}
+
+.nav-item a:hover {
+    color: black;
+    background-color: white;
+}
+
+.navbar-toggler {
+    background-color: aliceblue;
+
+}
+
+.nav-item-dropdown a {
+    color: white;
+}
+
+.nav-item-dropdown a:hover {
+    color: black;
+    background-color: gray;
+}
+
+.dropdown-menu {
+    width: 100px;
+    background-color: white !important;
+    position: absolute;
+    display: none;
+
+}
+
+.dropdown-menu-item {
+    width: 200px;
+    background-color: white !important;
+    position: absolute;
+    display: none;
+
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: rgb(7, 7, 42);
+}
+
+li:nth-child(3):hover .dropdown-menu {
+    display: block;
+}
+
+li:nth-child(4):hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu:hover .dropdown-menu-item {
+    display: block;
+}
+
+.dropdown-menu li:hover .a-blue-custom {
+    background-color: rgb(41, 41, 98);
+    color: white;
+}
+
+.dropdown-menu-item li:hover a {
+    border: 1px solid green !important;
+    color: white !important;
+}
+
+.offcanvas ul {
+    padding: 30px 30px;
+}
+
+.offcanvas ul a {
+    color: rgb(7, 7, 42);
+}
+
+.btn-close {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+.section-custom {
+    background: url("../Images/Network.png") no-repeat;
+    background-size: cover;
+}
+
+.section-custom .col-md-7 {
+    background-color: rgb(1, 1, 38, 0.6);
+    border-radius: 10px;
+}
+
+.section-custom .col-md-7 span {
+    font-size: 80px !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section-custom .col-md-4 {
+    background-color: rgb(1, 1, 38, 1);
+    border-radius: 10px;
+}
+
+.section-custom .col-md-5 h3 {
+    font-size: 80px !important;
+}
+
+.section-custom-2 {
+    background-image: linear-gradient(to right, blue, #4f1a83, red) !important;
+}
+
+.section-custom-2 span {
+    font-weight: 100;
+}
+
+.section-custom-3 .image-custom2 h3 {
+    font-size: 26px !important;
+}
+
+.section-custom-4 {
+    background-color: rgb(2, 2, 35);
+}
+
+.section-custom-5 .item {
+    width: 50%;
+    cursor: pointer;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.section-custom-5 .item img {
+    width: 100%;
+    transform: scale(1);
+    display: block;
+}
+
+.section-custom-5 .item:hover .img-hover-custom h2 {
+    color: black !important;
+    background-color: white !important;
+    border: 2px solid green;
+}
+
+.section-custom-5 .img-hover-custom {
+    width: 100%;
+    background-color: black !important;
+}
+
+.section-custom-6 {
+    background-color: rgb(2, 2, 35);
+}
+
+.linux-section-custom {
+    background: url("../Images/devops-image.png") right no-repeat #010233;
+    background-size: contain;
+}
+
+.linux-header-custom {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: transparent;
+}
+
+.linux-section-custom h1 {
+    font-size: 48px;
+}
+
+.linux-section-custom span button:hover {
+    background-color: #010233 !important;
+    border: 2px solid white !important;
+    font-weight: 500;
+}
+
+.linux-section-custom span {
+    padding-bottom: 200px !important;
+}
+
+.linux-section-custom-2 button:hover {
+    background-color: #010233 !important;
+    border: none;
+    color: white;
+}
+
+.linux-section-custom-2 {
+    position: relative;
+
+}
+
+.con-program-custom {
+    background-color: #e5ecf2;
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+    top: -70px;
+}
+
+.linux-con-custom-3 {
+    padding-top: 180px !important;
+}
+
+
+.content-block ul li {
+    position: relative;
+    line-height: 40px !important;
+    padding-left: 1.875rem;
+}
+
+
+.content-block ul li:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.8rem;
+    background: url("../Images/icon _Check Circle.png") no-repeat;
+    background-size: contain;
+    height: 1rem;
+    width: 1rem;
+}
+
+.accordion-item ul li {
+    color: black;
+}
+
+.accordion-title:hover {
+    color: white;
+    background-color: rgb(20, 20, 220);
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.accordion-content {
+    display: none;
+}
+
+.accordion-item.active .accordion-content {
+    display: block !important;
+}
+
+.business-header-custom {
+    background: url("../Images/Meteor-1.png") no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid white;
+}
+
+.business-section-custom-1 {
+    background: url("../Images/Meteor-1.png") no-repeat;
+    background-size: cover;
+}
+
+.business-section-custom-1 h1 {
+    font-size: 80px;
+    background-image: url("../Images/low-poly-grid-hai-kei (2).png");
+    background-size: cover !important;
+    background-position: center !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    color: transparent !important;
+
+}
+
+.form-custom {
+    width: 100%;
+    margin-right: 0;
+    position: relative;
+
+}
+
+.number-custom {
+    width: 65% !important;
+}
+
+.input_placeholder {
+    color: var(--secondary) !important;
+    position: absolute;
+    width: 30% !important;
+    left: 15%;
+    transform: translateX(-50%);
+    top: 60% !important;
+    transform: translateY(-50%);
+    background-color: #fff !important;
+
+}
+
+.paid-custom {
+    line-height: 12px !important;
+}
+
+.business-section-custom-2 {
+    background-color: #002233;
+}
+
+.business-section-custom-2 .classic-gradient {
+    background-image:
+        radial-gradient(farthest-corner circle at 50% 51%,
+            #00dfff 66% 66%, #bca8c8 100%);
+}
+
+.business-section-custom-2 .classic-gradient-2 {
+    background-image: linear-gradient(to right, blue, #4f1a83, red) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    color: transparent !important;
+}
+
+.business-section-custom-2 .classic-gradient-3 {
+    background-image: linear-gradient(to right, rgb(59, 59, 229), #af67f6) !important;
+}
+
+.business-section-custom-3 {
+    background-image: linear-gradient(to right, rgb(2, 4, 83), #4f1907) !important;
+}
+
+.business-section-custom-3 .classic-gradient-4 {
+    background-image: linear-gradient(to right, #0b515c, #0b515c) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-clip: text !important;
+    -webkit-background-clip: text !important;
+    color: transparent !important;
+}
+
+.business-section-custom-3 h2 {
+    font-size: 50px;
+}
+
+.business-section-custom-3 .group-img-custom {
+    padding-top: 80px !important;
+}
+
+.business-section-custom-3 .classic-gradient-5 {
+    background-image: linear-gradient(to right, rgb(59, 59, 229), #af67f6) !important;
+}
+
+.business-section-custom-4 {
+    background-color: #002233;
+}
+
+.login-section-custom .input-box {
+    margin: 30px auto;
+    width: 80%;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.login-section-custom .input-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.login-section-custom .btn-custom {
+    width: 13%;
+    margin: auto;
+}
+
+.login-section-custom .btn-custom .login-btn {
+    width: 100%;
+}
+
+.login-section-custom .eye {
+    position: absolute;
+    right: 0;
+}
+
+#hide1 {
+    display: none;
+}
+
+.login-section-custom .login-btn {
+    display: block;
+}
+
+.join-section-custom {
+    background: url("../Images/Meteor-1.png") no-repeat;
+    background-size: cover;
+}
+
+.join-section-custom {
+    background: url("../Images/Meteor-1.png") no-repeat;
+    background-size: cover;
+}
